@@ -8,12 +8,15 @@
 	"engines": {
 		"vscode": "^1.37.0"
 	},
-	"categories": [
-		"Programming Languages"
-	],
 	"author": {
 		"name": "Mike Eckert"
 	},
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": [
+		"step", "STEP", "stp", "STP", ".STEP", ".stp", "CAD", "STEP file", "AP242", "AP203", "AP214" 
+	],
 	"contributes": {
 		"languages": [
 			{
