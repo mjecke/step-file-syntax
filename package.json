@@ -1,0 +1,52 @@
+{
+	"name": "step-file-syntax",
+	"displayName": "STEP File Syntax",
+	"description": "Syntax Highlighting for STEP CAD Files",
+	"version": "1.0.0",
+	"publisher": "mjecke",
+	"icon": "images/stepicon.png",
+	"engines": {
+		"vscode": "^1.37.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"author": {
+		"name": "Mike Eckert"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "stepfile",
+				"aliases": [
+					"STEP File",
+					"stepfile",
+					"STP File"
+				],
+				"extensions": [
+					".step",
+					".stp"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "stepfile",
+				"scopeName": "source.step",
+				"path": "./syntaxes/stepfile.tmLanguage.json"
+			}
+		]
+	},
+	"homepage": "https://github.com/mjecke/step-file-syntax",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mjecke/step-file-syntax.git",
+		"bugs": {
+			"url": "https://github.com/mjecke/step-file-syntax",
+			"email": "mje.dm6@gmail.com"
+		}
+	},
+	"license": "MIT"
+	
+}
