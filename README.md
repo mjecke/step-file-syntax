@@ -9,7 +9,8 @@
 Provides basic syntax highlighting when manually viewing ASCII STEP CAD files in VS Code.
 Recognizes .step and .stp file extensions.
 
-![Example](https://github.com/mjecke/step-file-syntax/blob/main/images/screenshot.png)
+[Example]
+<img width="2794" alt="compare" src="https://github.com/mjecke/step-file-syntax/blob/d5d4456756fa0b9ef15fa11a8f41a3b5645b51a7/images/screenshot.png">
 
 ## License
 
