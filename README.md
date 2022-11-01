@@ -4,6 +4,9 @@
   <br>
 </h1>
 
+Install from the VS Code Marketplace here: 
+https://marketplace.visualstudio.com/items?itemName=mjecke.step-file-syntax
+
 ## About
 
 Provides basic syntax highlighting when manually viewing ASCII STEP CAD files in VS Code.
